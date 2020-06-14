@@ -26,7 +26,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const authLinks = (
     <ul>
       <Button component={Link} to="/profiles" color="inherit">
-        Developers
+        Students
       </Button>
       <Button component={Link} to="/posts" color="inherit">
         Posts
@@ -42,9 +42,6 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
 
   const guestLinks = (
     <ul>
-      <Button component={Link} to="/profiles" color="inherit">
-        Developers
-      </Button>
       <Button component={Link} to="/register" color="inherit">
         Register
       </Button>
