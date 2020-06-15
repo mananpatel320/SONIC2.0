@@ -16,7 +16,7 @@ const Posts = ({ getPosts, post: { posts } }) => {
   return (
     <Fragment>
       <Typography variant="h3" gutterBottom>
-        DASHBOARD
+        POSTS
       </Typography>
       <Typography>
         <div
